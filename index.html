@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pizza House</title>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+   <div class="navbar">
+	<div class="container">
+	   <button type="button" class="navbar-toggle" data-toggle="collapse" onclick="html">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </button>
+		<div class="navbar-header">
+			<a href="#" class="navbar-brand"><img class="logo" src="./img/logo.png" alt=""></a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="#">HOME</a></li>
+				<li class="active"><a href="#">ABOUT</a></li>
+				<li class="active"><a href="#">MENU</a></li>
+				<li class="active cart"><a href="#">0<i class="fa fa-shopping-cart menufa" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+	</div>
+   </div>
+      <div id="headerwrap">
+      	<div class="container">
+      		<div class="row centered">
+      			<div class="col-lg-6 col-lg-offset-1">
+      				<h1>Hey there!</h1>
+      				<h3>At Pizza House you'll find the true taste because we're using the highest quality ingredients.</h3>
+      			</div>
+      		</div>
+      	</div>
+      </div>
+      <div class="container dg">
+      	<div class="container">
+      		<div class="row centered">
+      		   <h4>Pizza Menu Set</h4>
+      		      <br>
+      		</div>
+      		   <div class="col-lg-3 pizzas" id="california">
+      		       <img src="./img/california.png" alt="">
+      		          <h2>California</h2>
+      		             <p>Ingredients: tomatoes, cheese, mushrooms, salami</p>
+      		                <h1>20$</h1>
+      		                   <button class="btn btn-danger addbtn" id="californiaBtn"><i class="fa fa-check" aria-hidden="true"></i>ADD</button>
+      		   </div>
+      		    <div class="col-lg-3 pizzas">
+      		       <img src="./img/cheese.png" alt="">
+      		          <h2>Cheese</h2>
+      		             <p>Ingredients: tomatoes, cheese, mushrooms, salami</p>
+      		                <h1>19$</h1>
+      		                   <button class="btn btn-danger addbtn"><i class="fa fa-check" aria-hidden="true"></i>ADD</button>
+      		   </div>
+      		    <div class="col-lg-3 pizzas">
+      		       <img src="./img/chicago.png" alt="">
+      		          <h2>Chicago</h2>
+      		             <p>Ingredients: tomatoes, cheese, mushrooms, salami</p>
+      		                <h1>21$</h1>
+      		                   <button class="btn btn-danger addbtn"><i class="fa fa-check" aria-hidden="true"></i>ADD</button>
+      		   </div>
+      		    <div class="col-lg-3 pizzas">
+      		       <img src="./img/greek.png" alt="">
+      		          <h2>Greek</h2>
+      		             <p>Ingredients: tomatoes, cheese, mushrooms, salami</p>
+      		                <h1>20$</h1>
+      		                   <button class="btn btn-danger addbtn"><i class="fa fa-check" aria-hidden="true"></i>ADD</button>
+      		   </div>
+      	</div>
+      	<div class="container">
+      		    <div class="col-lg-3 pizzas">
+      		       <img src="./img/papperoni.png" alt="">
+      		          <h2>Papperoni</h2>
+      		             <p>Ingredients: tomatoes, cheese, mushrooms, salami</p>
+      		                <h1>17$</h1>
+      		                   <button class="btn btn-danger addbtn"><i class="fa fa-check" aria-hidden="true"></i>ADD</button>
+      		   </div>
+      		    <div class="col-lg-3 pizzas">
+      		       <img src="./img/verona.png" alt="">
+      		          <h2>Verona</h2>
+      		             <p>Ingredients: tomatoes, cheese, mushrooms, salami</p>
+      		                <h1>19$</h1>
+      		                   <button class="btn btn-danger addbtn"><i class="fa fa-check" aria-hidden="true"></i>ADD</button>
+      		   </div>
+      		    <div class="col-lg-3 pizzas">
+      		       <img src="./img/neapolitan.png" alt="">
+      		          <h2>Neapolitan</h2>
+      		             <p>Ingredients: tomatoes, cheese, mushrooms, salami</p>
+      		                <h1>22$</h1>
+      		                   <button class="btn btn-danger addbtn"><i class="fa fa-check" aria-hidden="true"></i>ADD</button>
+      		   </div>
+      		    <div class="col-lg-3 pizzas">
+      		       <img src="./img/meatlovers.png" alt="">
+      		          <h2>Meatlovers</h2>
+      		             <p>Ingredients: tomatoes, cheese, mushrooms, salami</p>
+      		                <h1>25$</h1>
+      		                   <button class="btn btn-danger addbtn"><i class="fa fa-check" aria-hidden="true"></i>ADD</button>
+      		   </div>    		
+      	</div>
+      </div>
+      <div class="container option checker">
+      	 <div class="row centered">
+      		<h4>Create Your Pizza</h4>
+         </div>
+         <div class="col-lg-4">
+            <div class="checkbox list">
+               <label>
+                  <input type="checkbox" value=""><p>Cheese</p>
+                  <input type="checkbox" value=""><p>Tomatoes</p>
+                  <input type="checkbox" value=""><p>Chicken</p>
+                  <input type="checkbox" value=""><p>Bacon</p>
+                  <input type="checkbox" value=""><p>Mushrooms</p>
+               </label>
+            </div>
+         </div>
+         <div class="col-lg-4">
+            <div class="checkbox list">
+               <label>
+                  <input type="checkbox" value=""><p>Onion</p>
+                  <input type="checkbox" value=""><p>Ham</p>
+                  <input type="checkbox" value=""><p>Olives</p>
+                  <input type="checkbox" value=""><p>Sausage</p>
+                  <input type="checkbox" value=""><p>Peppers</p>
+               </label>
+            </div>
+         </div>
+         <div class="col-lg-12 centered">
+            <h1>Total: 20$</h1>
+         	<button class="btn btn-danger addbtn centered"><i class="fa fa-check" aria-hidden="true"></i></i>ADD</button>
+         </div>
+      </div>
+    <div class="container order">
+    	<div class="row centered">
+    	    <h4>Order Result</h4>
+    	</div>
+    		<div class="col-lg-8">
+    			<form class="form-inline">
+                   <div class="form-group">
+                      <label for="inputname1">Name</label>
+                         <input type="text" class="form-control" id="inputname1" placeholder="Jane Doe">
+                   </div>
+                   <div class="form-group">
+                      <label for="inputtel1">Tel.</label>
+                         <input type="text" class="form-control" id="inputtel1" placeholder="i.e. 8 032 444 55 66">
+                   </div>
+                </form>
+                <form class="form-horizontal">
+                   <div class="form-group">
+                      <label for="comments1"></label>
+                         <textarea class="form-control" rows="3" placeholder="Comments"></textarea>
+                    </div>
+                </form>   
+    		</div>
+    		<div class="col-lg-4">
+    		   <ol id="totalList">
+    		   </ol>
+              <!--  <table class="table">
+                  <tr>
+                     <td>Verona</td>
+                     <td>20$</td>
+                     <td><a href="3"><i class="fa fa-times" aria-hidden="true"></i></a></td>                     
+                  </tr>
+                  <tr>
+                     <td>Cheese</td>
+                     <td>19$</td>
+                     <td><a href="3"><i class="fa fa-times" aria-hidden="true"></i></a></td>   
+                  </tr>
+                  <tr>
+                     <td>Chicago</td>
+                     <td>22$</td>
+                     <td><a href="3"><i class="fa fa-times" aria-hidden="true"></i></a></td>
+                  </tr>
+                </table> -->
+                <h1 class="centered">Total: 20$</h1>
+                <button class="btn btn-danger addbtn">CONFIRM</button>
+                <button class="btn btn-default addbtn">CANCEL</button>
+    		</div>
+    </div>  
+    <div class="container ft">
+       <div class="row centered">
+          <div class="col-lg-4">
+             <h4>Location</h4>
+                <p>Melrose Place<br>
+                Beverly Hills, CA 21037</p>
+          </div>
+        <div class="col-lg-4">
+           <h4>Follow Us</h2>
+              <p>
+                 <a href="#"><i class="fa fa-facebook fa-2x faicon" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-google-plus fa-2x faicon" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-twitter fa-2x faicon" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-linkedin fa-2x faicon" aria-hidden="true"></i></a>
+              </p>
+       </div>
+       <div class="col-lg-4">
+          <h4>Contact Us</h4>
+             <p>Tel. 8 012 543 21 00<br>E-mail: edestu@gmail.com</p>
+       </div>
+    </div>
+    </div>
+    <div class="container centered copy">
+        <div class="col-lg-12">
+           <p>Copyright &copy Your Website 2017</p>
+        </div>
+    </div>
+   <script src="./script/jquery-3.2.1.min.js"></script>
+   <script src="./script/bootstrap.min.js"></script>
+   <script src="./script/script.js"></script>
+</body>
+</html>
