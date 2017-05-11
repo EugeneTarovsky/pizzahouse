@@ -6,11 +6,6 @@ body {
 	font-weight: 300;
 	font-size: 16px;
 	color: #555;
-
-	-webkit-font-smoothing: antialiased;
-	-webkit-overflow-scrolling: touch;
-
-	margin-top: 70 px;
 }
 
 h2, h3, h4, h5, h6 {
@@ -199,7 +194,7 @@ hr {
 }
 
 li .fa {
-	padding-left: 50px;
+	padding-left: 10px;
 }
 
 .order {
@@ -216,7 +211,7 @@ li .fa {
 }
 
 .order textarea {
-	width: 480px;
+	width: 70%;
 	background-color: beige;
 }
 
