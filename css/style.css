@@ -239,3 +239,11 @@ ol > li {
 	border-bottom: 1px solid darkgrey;
 
 }
+
+.options {
+	left: 8%;
+}
+
+.options_btn {
+	left: 13%;
+}
